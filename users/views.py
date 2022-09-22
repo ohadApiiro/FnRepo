@@ -3,5 +3,5 @@ class UsersMeView(generics.RetrieveAPIView):
         pass
 
 class UsersMeLanguage(APIView):
-    def as_view():
-        pass
+    def post(self, request, *args, **kwargs):
+        return Response()
